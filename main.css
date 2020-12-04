@@ -1,0 +1,46 @@
+.field {
+    width: 620px;
+    height: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    align-content: space-between;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.square_right {
+    background-color: green;
+}
+
+.square_wrong {
+    background-color: red;
+}
+
+.start-game {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.start-game_visible {
+    display: flex;
+}
+
+.results {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
